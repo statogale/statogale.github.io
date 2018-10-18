@@ -1,0 +1,5 @@
+<nav class="breadcrumb">
+    <a class="breadcrumb-item" href="/">Home</a>
+    {% if include.new_item  %} {{ include.new_item }} {% endif %}
+    <a class="breadcrumb-item active text-lowercase">{{ include.pagename }}</a>
+</nav>

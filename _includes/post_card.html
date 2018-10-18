@@ -1,0 +1,29 @@
+
+<div class="col-lg-4 col-md-6 mb-4">
+<div class="card">
+
+    <div class="view overlay">
+        <img src="{{ include.image }}" class="card-img-top" alt="">
+        <a href="{{ include.url | absolute_url }}">
+            <div class="mask rgba-white-slight"></div>
+        </a>
+    </div>
+
+    <div class="card-body">
+        
+        <h4 class="card-title">{{ include.title }}
+            
+        </h4>
+        <h6 class="card-subtitle mb-2 text-muted">
+            {{ include.author | capitalize | default: "Mark" }} | {{ include.date: default: "" }} 
+        </h6>
+     
+        <p class="card-text">{{ include.excerpt | truncatewords: 15 }} <small><a class="badge bg-primary badge-pill" href="{{include.url}}#disqus_thread"> <i class="fas fa-comment"></i> </a>
+        </small></p>
+        <a href="{{ include.url | absolute_url }}" class="btn btn-primary btn-md">Start tutorial
+            <i class="fas fa-play ml-2"></i>
+        </a>
+    </div>
+
+</div>
+</div>

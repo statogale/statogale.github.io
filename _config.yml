@@ -1,0 +1,102 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Statogale
+email: statogale.da@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Statogale is a group of freelancers who specialize in web development and data science. Areas include
+  machine learning, R language, python, javascript, php with laravel5, reactjs, vuejs,sql and lots more.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://statogale.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: statogale
+github_username:  statogale
+repository: statogale/statogale.github.io
+github: [metadata]
+google_analytics: UA-127554522-1
+timezone: Africa/Lagos
+
+social_facebook: https://www.facebook.com/statogale
+social_github: https://www.github.com/statogale
+social_twitter: https://twitter.com/statogale
+social_google: https://plus.google.com/113381099934777085911
+social_youtube: https://www.youtube.com/channel/UCydJ_lVJ1GQsjQF-CO7pc7A
+social_codepen: http://codepen.io/statogale/
+social_pinterest: https://pinterest.com/dev_analytics
+social_instagram: https://www.instagram.com/statogale
+social_linkedin: https://www.linkedin.com/in/statogale-devanalytics-982423173/
+
+email_subscription: false
+
+layout: default
+
+collections:
+  authors:
+    output: true
+
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+      short_name: mark
+      name: Mark Edosa
+      position: "Optometrists, data scientist and software developer"
+      skills: "machine learning, data visualization, reactjs, vuejs, R programming, Python programming"
+      facebook: 
+      twitter: 
+      github:
+      instagram: 
+      linkedin:
+      image:  "/assets/img/authors/user.png"
+      email:  medosa185@gmail.com
+      phone: "+2347064964053"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      thumbnail: "/assets/img/post/post_thumbnail.jpg"
+      image: "/assets/img/post/post_default_image.jpg"
+      author: "mark"
+      categories:
+      tags:
+      comments: true
+      advertisement: false 
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-primer
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

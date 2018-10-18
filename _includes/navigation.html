@@ -1,0 +1,61 @@
+<header>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
+        <div class="container">
+
+            <a class="navbar-brand waves-effect logo_spin" href="/">
+                <img src="/assets/img/logo.png" class="img-fluid" alt="statogale's logo" width="45" height="45">
+            </a>
+          
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             
+                <ul class="navbar-nav mr-auto text-capitalize">
+
+                    {% for item in site.data.navigation %}
+                    
+                    <li {% if page.url == item.link %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
+                        <a class="nav-link waves-effect" href="{{ item.link }}">
+                            {{ item.name }}
+                            {% if page.url == item.link %}
+                            <span class="sr-only">(current)</span>
+                            {% endif %}
+                        </a>
+                    </li>
+                    
+                    {% endfor %}
+              
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect" href="#contact">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+        
+                <ul class="navbar-nav nav-flex-icons">
+                    <li class="nav-item">
+                        <a href="https://www.facebook.com/statogale" class="nav-link waves-effect" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://twitter.com/statogale" class="nav-link waves-effect" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://github.com/statogale" class="nav-link rounded waves-effect"
+                            target="_blank">
+                            <i class="fab fa-github mr-2"></i>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+</header>

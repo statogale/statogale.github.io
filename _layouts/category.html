@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<main class="mt-5 pt-5">
+    <div class="container">
+
+        {% capture new_crumb %}
+        <a class="breadcrumb-item" href="/category/">category</a>
+        {% endcapture %}
+        
+        {% include breadcrumb.html pagename=page.title new_item=new_crumb %}
+
+        <div class="row wow fadeIn pt-5">
+              {{ content }}
+        </div>
+    </div>
+</main>
