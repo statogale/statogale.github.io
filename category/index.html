@@ -38,11 +38,9 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
-  <!-- Bootstrap core CSS -->
+ 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
   crossorigin="anonymous">
-
-  <!-- Material Design Bootstrap -->
   <link href="/assets/css/mdb.min.css" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/style.css">
 
@@ -155,18 +153,6 @@
           <div class="col-12 col-md-6">
             <ul class="list-group">
             
-            <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center" id="php">
-                <a href="/category/php">php</a>
-                <span class="badge badge-primary badge-pill">4</span>
-            </li>
-
-            
-            <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center" id="javascript">
-                <a href="/category/javascript">javascript</a>
-                <span class="badge badge-primary badge-pill">1</span>
-            </li>
-
-            
             <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center" id="python">
                 <a href="/category/python">python</a>
                 <span class="badge badge-primary badge-pill">1</span>
@@ -183,7 +169,7 @@
 </main>
 
 
-    <footer class="page-footer font-small darken-2 pt-4 wow fadeIn footer_bg">
+    <footer class="page-footer font-small pt-4 wow fadeIn footer_bg">
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-6 col-lg-4 text-white py-3">
@@ -205,7 +191,7 @@
 
         <div class="col-12 col-md-6 col-lg-4 py-3">
 
-            <h6 class="text-uppercase py-2 text-left move_contact">Contact</h6>
+            <h6 class="text-uppercase py-2 text-left move_contact" id="contact">Contact</h6>
            <address>
     <ul class="list-unstyled">
         <li class="nav-item"><a class="nav-link pl-0" href="mailto:statogale.da@gmail.com"><i class="fa fa-envelope"
@@ -230,15 +216,7 @@
                     <ul class="list-unstyled">
                         
 
-                        <li class="nav-item"><a class="nav-link px-md-0 text-white" href="/category/php"> &nbsp; php</a></li>
-
-                        
-
-                        <li class="nav-item"><a class="nav-link px-md-0 text-white" href="/category/javascript"> &nbsp; javascript</a></li>
-
-                        
-
-                        <li class="nav-item"><a class="nav-link px-md-0 text-white" href="/category/python"> &nbsp; python</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="/category/python"> &nbsp; python</a></li>
 
                         
                     </ul>
@@ -249,9 +227,8 @@
                     <ul class="list-unstyled">
                         <li class="nav-item"><a class="nav-link text-white" href="/"> &nbsp; Home</a></li>
                         <li class="nav-item"><a class="nav-link text-white" href="/about"> &nbsp; About</a></li>
-                        <li class="nav-item"><a class="nav-link px-md-0 text-white" href="/services/"> &nbsp; Services</a></li>
-                        <!-- <li class="nav-item"><a class="nav-link px-md-0 text-white" href="#"> &nbsp; Contact</a></li> -->
-                        <!-- <li class="nav-item"><a class="nav-link px-md-0 text-white" href="#"> &nbsp; Repositories</a></li> -->
+                        <li class="nav-item"><a class="nav-link text-white" href="/blog/"> &nbsp; blog</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="/staff.html"> &nbsp; team</a></li>
                     </ul>
                 </div>
         </div>
@@ -277,7 +254,7 @@
     new WOW().init();
 </script>
 
- <script>
+<script>
 
     if (window.location.pathname === '/') {
 
@@ -388,9 +365,7 @@
 
 </script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg="
-        crossorigin="anonymous"></script>
-<script>anchors.add();</script> 
+
 
 
     <script>
