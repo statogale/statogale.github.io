@@ -1,1 +1,75 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://statogale.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://statogale.github.io/" rel="alternate" type="text/html" /><updated>2018-10-26T16:48:41+01:00</updated><id>https://statogale.github.io/</id><title type="html">Statogale</title><subtitle>Statogale is a group of freelancers who specialize in web development and data science. Areas include machine learning, R language, python, javascript, php with laravel5, reactjs, vuejs,sql and lots more.</subtitle></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://statogale.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://statogale.github.io/" rel="alternate" type="text/html" /><updated>2018-11-21T15:20:53+01:00</updated><id>https://statogale.github.io/</id><title type="html">Statogale</title><subtitle>Statogale is a group of freelancers who specialize in web development and data science. Areas include machine learning, R language, python, javascript, php with laravel5, reactjs, vuejs,sql and lots more.</subtitle><entry><title type="html">python programming - Installing python</title><link href="https://statogale.github.io/python/2018/11/15/installing-python.html" rel="alternate" type="text/html" title="python programming - Installing python" /><published>2018-11-15T00:00:00+01:00</published><updated>2018-11-15T00:00:00+01:00</updated><id>https://statogale.github.io/python/2018/11/15/installing-python</id><content type="html" xml:base="https://statogale.github.io/python/2018/11/15/installing-python.html">&lt;p&gt;Installation of python is very easy although it is dependent on the operating system of your device.&lt;/p&gt;
+
+&lt;p&gt;To install python, go to &lt;a href=&quot;https://www.python.org/downloads/&quot;&gt;https://www.python.org/downloads/&lt;/a&gt; and select the latest release of the python software based on your operating system. Usually, the download options specific to your operating system are shown first.  This article is second in the introduction to python programming series. The first article that introduces the subject matter can be found &lt;a href=&quot;/python/2018/10/20/introduction-to-python-programming.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h5 id=&quot;installing-python-on-windows--macos&quot;&gt;&lt;strong&gt;Installing python on Windows / MacOs&lt;/strong&gt;&lt;/h5&gt;
+
+&lt;p&gt;Click the orange-colored download button if you want the 32-bit version of the software (e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;python-3.7.1.exe&lt;/code&gt;) else scroll down a bit and click on a specific release e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;python-3.7.1&lt;/code&gt;. This should take you the page where you can select the 64 bit version of the software. This should be python-3.7.1.&lt;code class=&quot;highlighter-rouge&quot;&gt;amd64&lt;/code&gt;.exe for example. (&lt;em&gt;note the &lt;strong&gt;amd64&lt;/strong&gt;&lt;/em&gt;)&lt;/p&gt;
+
+&lt;p&gt;Upon clicking the python executable or .exe file, you should get a prompt as shown below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/post/python/installing/start.png&quot; alt=&quot;start prompt for python installation&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Make sure you check the “add python to path” option as shown above.&lt;/strong&gt; This enables you run the python interpreter from the commandline anywhere on your device. Also it makes it easier for other softwares which require python to find the python program.&lt;/p&gt;
+
+&lt;p&gt;Then click &lt;code class=&quot;highlighter-rouge&quot;&gt;install now&lt;/code&gt; or click &lt;code class=&quot;highlighter-rouge&quot;&gt;customize installation&lt;/code&gt; if you want specific features (both optional and advanced) as well as the ability to choose the location of installation. If you are a beginner, click &lt;code class=&quot;highlighter-rouge&quot;&gt;install now&lt;/code&gt;. Note that you can make further modifications after installing python by clicking the installer. After a successful installation, you should see this.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/post/python/installing/success.png&quot; alt=&quot;python successful installation image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After installation, open the commandline on your device (shift + right-click) and type &lt;code class=&quot;highlighter-rouge&quot;&gt;python&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;py&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;python3&lt;/code&gt;. This should launch the python interpreter.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/post/python/installing/interpreter.png&quot; alt=&quot;python interpreter from the commandline&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Along with the python interpreter, other files associated with the python installation includes&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;the python manual/documentation (a must-have great place to learn python)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;the default python IDLE&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;the python module documentation&lt;/p&gt;
+
+    &lt;p&gt;click on this to open the module docs in your device’s default web browser. There you can assess information on python functions available in the modules&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;python text editor - not so fancy like &lt;code class=&quot;highlighter-rouge&quot;&gt;jetbrains pycharm&lt;/code&gt; but can be useful in certain cases.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;installation-on-other-operating-systems&quot;&gt;&lt;strong&gt;Installation on other operating systems&lt;/strong&gt;&lt;/h5&gt;
+
+&lt;p&gt;Installation on mac follows a similar process as explained above. On linux, python is installed by default. If you’d like to install a different version then run&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;sudo apt-get update&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;sudo apt-get install python-&lt;code class=&quot;highlighter-rouge&quot;&gt;version&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h5 id=&quot;when-you-cant-run-python-from-the-commandline&quot;&gt;&lt;strong&gt;When you can’t run python from the commandline&lt;/strong&gt;&lt;/h5&gt;
+
+&lt;p&gt;If you do get the above message, do the following.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;verify that the python software was properly installed; type &lt;code class=&quot;highlighter-rouge&quot;&gt;python.exe&lt;/code&gt; in the search bar of your device. If found right-click and open folder location. You should see python.exe among other files.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;if python.exe is available, most likely python wasn’t added to the path variable during installation. The easiest way to solve this problem is to click on the python installer (the file you downloaded) and choose the modify option. Then click next. Make sure the &lt;code class=&quot;highlighter-rouge&quot;&gt;add python to environment variables&lt;/code&gt; option is checked and you are good to go.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/post/python/installing/modify.png&quot; alt=&quot;modifying python installation&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/post/python/installing/modify2.png&quot; alt=&quot;ensuring that the add python to path variable is checked&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;conclusion&quot;&gt;&lt;strong&gt;Conclusion.&lt;/strong&gt;&lt;/h5&gt;
+
+&lt;p&gt;As you make progress in the understanding and use of the python programming language, the ability to use python efficiently from the commandline is one skill you should possess especially if you want to become a system administrator or a devOps engineer. As a beginner you don’t have much to worry about… for now.
+Let’s take a look at python’s data types which is very essential for the creation of applications with python.&lt;/p&gt;</content><author><name>mark</name></author><category term="python" /><category term="beginner" /><summary type="html">Installation of python is very easy although it is dependent on the operating system of your device.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://statogale.github.io/assets/img/post/python/python-logo-generic.svg" /></entry></feed>
