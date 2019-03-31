@@ -1,1 +1,0 @@
-npm i --save-dev gulp gulp-shell gulp-imagemin imagemin-pngquant imagemin-jpegtran imagemin-gifsicle imagemin-optipng
