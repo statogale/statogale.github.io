@@ -1,345 +1,308 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://statogale.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://statogale.github.io/" rel="alternate" type="text/html" /><updated>2019-03-31T21:05:08+01:00</updated><id>https://statogale.github.io/</id><title type="html">Statogale</title><subtitle>Statogale is a group of freelancers who specialize in web development and data science. Areas include machine learning, R language, python, javascript, php with laravel5, reactjs, vuejs,sql and lots more.</subtitle><entry><title type="html">python programming - Overview of python datatypes</title><link href="https://statogale.github.io/python/2019/03/19/overview-of-python-datatypes.html" rel="alternate" type="text/html" title="python programming - Overview of python datatypes" /><published>2019-03-19T00:00:00+01:00</published><updated>2019-03-19T00:00:00+01:00</updated><id>https://statogale.github.io/python/2019/03/19/overview-of-python-datatypes</id><content type="html" xml:base="https://statogale.github.io/python/2019/03/19/overview-of-python-datatypes.html">&lt;p&gt;Python datatypes such as numbers, sequences (e.g. strings, lists, tuples), mappings or dictionaries are the building blocks of a python application. This article gives an overview of python’s major datatypes.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://statogale.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://statogale.github.io/" rel="alternate" type="text/html" /><updated>2019-03-31T21:17:11+01:00</updated><id>https://statogale.github.io/</id><title type="html">Statogale</title><subtitle>Statogale is a group of freelancers who specialize in web development and data science. Areas include machine learning, R language, python, javascript, php with laravel5, reactjs, vuejs,sql and lots more.</subtitle><entry><title type="html">python programming - Overview of python datatypes</title><link href="https://statogale.github.io/python/2019/03/19/overview-of-python-datatypes.html" rel="alternate" type="text/html" title="python programming - Overview of python datatypes" /><published>2019-03-19T00:00:00+01:00</published><updated>2019-03-19T00:00:00+01:00</updated><id>https://statogale.github.io/python/2019/03/19/overview-of-python-datatypes</id><content type="html" xml:base="https://statogale.github.io/python/2019/03/19/overview-of-python-datatypes.html">Python datatypes such as numbers, sequences (e.g. strings, lists, tuples), mappings or dictionaries are the building blocks of a python application. This article gives an overview of python's major datatypes. 
 
-&lt;p&gt;&lt;strong&gt;NB: A useful function for determining the type of object is &lt;code class=&quot;highlighter-rouge&quot;&gt;type()&lt;/code&gt;.&lt;/strong&gt;&lt;/p&gt;
+**NB: A useful function for determining the type of object is `type()`.**
 
-&lt;h5 id=&quot;numbers&quot;&gt;&lt;strong&gt;NUMBERS&lt;/strong&gt;&lt;/h5&gt;
+##### **NUMBERS**
 
-&lt;p&gt;Basically, python numbers includes&lt;/p&gt;
+Basically, python numbers includes 
 
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;integers&lt;/strong&gt; or whole numbers which can either be positive or negative e.g. 1, 100, -5 etc. They are created literally e.g. 100 or with the function &lt;code class=&quot;highlighter-rouge&quot;&gt;int()&lt;/code&gt;. &lt;strong&gt;Note: Boolean datatype, a variant of integer datatype also exists.&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;float&lt;/strong&gt; datatypes or numbers with decimal places e.g. 2.50, -3.142 etc. Floats are also created literally e.g. 1.5 or created with the function &lt;code class=&quot;highlighter-rouge&quot;&gt;float()&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;decimal&lt;/strong&gt; datatype which is a varaiant of the float datatype that produces “humanly” accurate calculations e.g&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+- **integers** or whole numbers which can either be positive or negative e.g. 1, 100, -5 etc. They are created literally e.g. 100 or with the function `int()`. **Note: Boolean datatype, a variant of integer datatype also exists.**
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;        &lt;span class=&quot;mf&quot;&gt;1.1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;2.2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;3.3000000000000003&lt;/span&gt;  &lt;span class=&quot;c&quot;&gt;# float datatype&lt;/span&gt;
+- **float** datatypes or numbers with decimal places e.g. 2.50, -3.142 etc. Floats are also created literally e.g. 1.5 or created with the function `float()`
 
-        &lt;span class=&quot;mf&quot;&gt;1.1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;2.2&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;equals&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;3.3&lt;/span&gt;   &lt;span class=&quot;c&quot;&gt;# decimal datatype&lt;/span&gt;
+- **decimal** datatype which is a varaiant of the float datatype that produces &quot;humanly&quot; accurate calculations e.g
 
-        &lt;span class=&quot;mf&quot;&gt;0.1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.3&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;equals&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;5.5511151231257827e-017&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# float datatype&lt;/span&gt;
+{% highlight python %}
 
-        &lt;span class=&quot;mf&quot;&gt;0.1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.3&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;equals&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;  &lt;span class=&quot;c&quot;&gt;# decimal datatype&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+        1.1 + 2.2 = 3.3000000000000003  # float datatype
 
-&lt;ul&gt;
-  &lt;li&gt;complex numbers e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;3 + 5j&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;
+        1.1 + 2.2 equals 3.3   # decimal datatype
 
-&lt;p&gt;Python numerics or numbers except the complex datatype support the usual arithmetic operations such as addition, subtraction etc. s well as logical operations and hence are useful for applications which are monetary or numeric in nature.&lt;/p&gt;
+        0.1 + 0.1 + 0.1 - 0.3 equals 5.5511151231257827e-017 # float datatype
 
-&lt;h5 id=&quot;sequences&quot;&gt;SEQUENCES&lt;/h5&gt;
+        0.1 + 0.1 + 0.1 - 0.3 equals 0  # decimal datatype
 
-&lt;p&gt;Python sequences which are ordered collections of items includes&lt;/p&gt;
+{% endhighlight python %}
 
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;strings&lt;/strong&gt; - set of characters or numbers within single/double/triple quotes. They can be created literally e.g &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Peter Griffin&quot;&lt;/code&gt;
-or with the &lt;code class=&quot;highlighter-rouge&quot;&gt;str()&lt;/code&gt; function&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;lists&lt;/strong&gt; -  a python list is a comma-seperated, homogenous/heterogenous set of items within square brackets e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;[1, 2, 4, &quot;dog&quot;, &quot;rabbit&quot;]&lt;/code&gt;. They are also created with the &lt;code class=&quot;highlighter-rouge&quot;&gt;list()&lt;/code&gt; function.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;tuples&lt;/strong&gt; - tuples are like lists but contain items enclosed in parenthesis e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;(1, 2, 4, &quot;dog&quot;, &quot;rabbit&quot;)&lt;/code&gt; and also immutable. Don’t worry if you don’t understand immutability for now. The &lt;code class=&quot;highlighter-rouge&quot;&gt;tuple()&lt;/code&gt; function creates tuples as well.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+- complex numbers e.g. `3 + 5j`.
 
-&lt;p&gt;Python sequences share common traits such as indexing which is zero-based, sorting, slicing and length.&lt;/p&gt;
+Python numerics or numbers except the complex datatype support the usual arithmetic operations such as addition, subtraction etc. s well as logical operations and hence are useful for applications which are monetary or numeric in nature.
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;        &lt;span class=&quot;n&quot;&gt;list_of_names&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Peter&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Lois&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Meg&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Chris&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Brian&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Stewie&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Brian&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-                           &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;         &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;      &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;       &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;        &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;       &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;          &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;
-        &lt;span class=&quot;c&quot;&gt;## Indexing&lt;/span&gt;
+##### SEQUENCES
 
-        &lt;span class=&quot;n&quot;&gt;list_of_names&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;  &lt;span class=&quot;c&quot;&gt;## &quot;Peter&quot;   ### the first item on this list, sits at index 0&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;list_of_names&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;  &lt;span class=&quot;c&quot;&gt;## &quot;Brian&quot;   ### the last item on this list, sits at index 6&lt;/span&gt;
+Python sequences which are ordered collections of items includes
 
-        &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Michael Jordan&quot;&lt;/span&gt;
-                &lt;span class=&quot;mf&quot;&gt;0123456789.&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;..&lt;/span&gt;     &lt;span class=&quot;c&quot;&gt;# the indices.&lt;/span&gt;
+- **strings** - set of characters or numbers within single/double/triple quotes. They can be created literally e.g `&quot;Peter Griffin&quot;`
+or with the `str()` function
 
-        &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;   &lt;span class=&quot;c&quot;&gt;## &quot;e&quot;   ### letter &quot;e&quot; is found at the 5th index&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+- **lists** -  a python list is a comma-seperated, homogenous/heterogenous set of items within square brackets e.g. `[1, 2, 4, &quot;dog&quot;, &quot;rabbit&quot;]`. They are also created with the `list()` function.
 
-&lt;p&gt;However, the list datatype differ from string and tuple datatype because it is mutable. this means you can add or remove items from the original list unlike strings and tuples which cannot be modified in place. New strings or new tuples can only be created from the old string or tuple respectively. Sequences especially lists and tuples are great for storing/transfering items while the string is also useful for displaying messages to users of an application&lt;/p&gt;
+- **tuples** - tuples are like lists but contain items enclosed in parenthesis e.g. `(1, 2, 4, &quot;dog&quot;, &quot;rabbit&quot;)` and also immutable. Don't worry if you don't understand immutability for now. The `tuple()` function creates tuples as well.
 
-&lt;h5 id=&quot;mappings-dictionaries&quot;&gt;&lt;strong&gt;MAPPINGS (Dictionaries)&lt;/strong&gt;&lt;/h5&gt;
+Python sequences share common traits such as indexing which is zero-based, sorting, slicing and length.
 
-&lt;p&gt;Python dictionaries consist of comma-seperated list of key-value pairs with curly braces. They are just like an English dictionary which contains word-meaning pairs. Like the list datatype, the dictionary is mutable but it cannot be sorted or sliced because it does not respect the position of its items i.e. it is unordered.&lt;/p&gt;
+{% highlight python %}
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;        &lt;span class=&quot;c&quot;&gt;# An example of a python dictionary&lt;/span&gt;
+        list_of_names = [&quot;Peter&quot;, &quot;Lois&quot;, &quot;Meg&quot;, &quot;Chris&quot;, &quot;Brian&quot;, &quot;Stewie&quot;, &quot;Brian&quot;]
+                           0         1      2       3        4       5          6
+        ## Indexing
 
-        &lt;span class=&quot;n&quot;&gt;some_character&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Peter Griffin&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;age&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;height&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;299m&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+        list_of_names[0]  ## &quot;Peter&quot;   ### the first item on this list, sits at index 0
+        list_of_names[6]  ## &quot;Brian&quot;   ### the last item on this list, sits at index 6
 
-        &lt;span class=&quot;c&quot;&gt;# Retrieving the name&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;some_character&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;  &lt;span class=&quot;c&quot;&gt;## &quot;Peter Griffin&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+        name = &quot;Michael Jordan&quot;
+                0123456789...     # the indices.
 
-&lt;p&gt;Dictionaries can also be created with the &lt;code class=&quot;highlighter-rouge&quot;&gt;dict()&lt;/code&gt; function.&lt;/p&gt;
+        name[5]   ## &quot;e&quot;   ### letter &quot;e&quot; is found at the 5th index
 
-&lt;h5 id=&quot;others&quot;&gt;&lt;strong&gt;OTHERS&lt;/strong&gt;&lt;/h5&gt;
+{% endhighlight python %}  
 
-&lt;p&gt;Other datatypes in python includes&lt;/p&gt;
+However, the list datatype differ from string and tuple datatype because it is mutable. this means you can add or remove items from the original list unlike strings and tuples which cannot be modified in place. New strings or new tuples can only be created from the old string or tuple respectively. Sequences especially lists and tuples are great for storing/transfering items while the string is also useful for displaying messages to users of an application
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Sets&lt;/strong&gt; - which is an unordered collection of &lt;em&gt;unique&lt;/em&gt; items. There are created literally as a set of items in curly braces e.g {1, 3, 5, 6} or with the &lt;code class=&quot;highlighter-rouge&quot;&gt;set()&lt;/code&gt; function. Like everyday mathematics, set operations e.g. intersections, unions etc. can be performed on python sets. As an example,&lt;/li&gt;
-&lt;/ul&gt;
+##### **MAPPINGS (Dictionaries)**
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt; 
+Python dictionaries consist of comma-seperated list of key-value pairs with curly braces. They are just like an English dictionary which contains word-meaning pairs. Like the list datatype, the dictionary is mutable but it cannot be sorted or sliced because it does not respect the position of its items i.e. it is unordered.
 
-        &lt;span class=&quot;c&quot;&gt;# assuming we have a list of duplicated items&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;list_containing_dups&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+{% highlight python %}
+        # An example of a python dictionary
 
-        &lt;span class=&quot;c&quot;&gt;# the set function takes the list and returns a set of unique values&lt;/span&gt;
-        &lt;span class=&quot;nb&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;list_containing_dups&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c&quot;&gt;## {1, 2, 3, 4, 5}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+        some_character = { &quot;name&quot;: &quot;Peter Griffin&quot;, &quot;age&quot;: 1000, &quot;height&quot;: &quot;299m&quot;}
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Enums&lt;/strong&gt; - &lt;em&gt;According to python’s official documentation,&lt;/em&gt; an enumeration or &lt;code class=&quot;highlighter-rouge&quot;&gt;Enum&lt;/code&gt; is a set of symbolic names (members) bound to unique, constant values.  An example will make it clearer.&lt;/li&gt;
-&lt;/ul&gt;
+        # Retrieving the name
+        some_character[&quot;name&quot;]  ## &quot;Peter Griffin&quot;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;        &lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;enum&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Enum&lt;/span&gt;
+{% endhighlight %}
 
-        &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Enum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+Dictionaries can also be created with the `dict()` function.
 
-            &lt;span class=&quot;n&quot;&gt;NORTH&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;EAST&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;SOUTH&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;WEST&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;
+##### **OTHERS**
 
-        &lt;span class=&quot;c&quot;&gt;## Color.WEST equals or represents 4&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+Other datatypes in python includes 
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Datetime&lt;/strong&gt; - The datetime object object in python consists of datetime properties useful for manipulating dates and times as well as performing for performing date and time arithmetics.&lt;/li&gt;
-&lt;/ul&gt;
+- **Sets** - which is an unordered collection of *unique* items. There are created literally as a set of items in curly braces e.g {1, 3, 5, 6} or with the `set()` function. Like everyday mathematics, set operations e.g. intersections, unions etc. can be performed on python sets. As an example,
+{% highlight python %} 
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;    &lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;datetime&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;
+        # assuming we have a list of duplicated items
+        list_containing_dups = [1,1,2,2,3,3,4,4,5,5]
 
-    &lt;span class=&quot;n&quot;&gt;today&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;today&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+        # the set function takes the list and returns a set of unique values
+        set(list_containing_dups)  ## {1, 2, 3, 4, 5}
 
-    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;today&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c&quot;&gt;## datetime.date(2018, 11, 21)&lt;/span&gt;
+{% endhighlight %} 
 
-    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;today&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;year&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c&quot;&gt;## 2018&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;today&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;month&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c&quot;&gt;## 11&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+- **Enums** - *According to python's official documentation,* an enumeration or `Enum` is a set of symbolic names (members) bound to unique, constant values.  An example will make it clearer.
 
-&lt;h5 id=&quot;conclusion&quot;&gt;&lt;strong&gt;CONCLUSION&lt;/strong&gt;&lt;/h5&gt;
+{% highlight python %}
 
-&lt;p&gt;This article gave an overview of python datatypes. Next is &lt;a href=&quot;/python/2019/03/19/overview-of-python-datatypes.html&quot;&gt;python statements, expressions and variables&lt;/a&gt;.&lt;/p&gt;</content><author><name>mark</name></author><category term="python" /><category term="beginner" /><summary type="html">Python datatypes such as numbers, sequences (e.g. strings, lists, tuples), mappings or dictionaries are the building blocks of a python application. This article gives an overview of python’s major datatypes.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://statogale.github.io/assets/img/post/python/python-logo-generic.svg" /></entry><entry><title type="html">python programming - Installing python</title><link href="https://statogale.github.io/python/2018/11/15/installing-python.html" rel="alternate" type="text/html" title="python programming - Installing python" /><published>2018-11-15T00:00:00+01:00</published><updated>2018-11-15T00:00:00+01:00</updated><id>https://statogale.github.io/python/2018/11/15/installing-python</id><content type="html" xml:base="https://statogale.github.io/python/2018/11/15/installing-python.html">&lt;p&gt;Installation of python is very easy although it is dependent on the operating system of your device.&lt;/p&gt;
+        from enum import Enum
 
-&lt;p&gt;To install python, go to &lt;a href=&quot;https://www.python.org/downloads/&quot;&gt;https://www.python.org/downloads/&lt;/a&gt; and select the latest release of the python software based on your operating system. Usually, the download options specific to your operating system are shown first.  This article is second in the introduction to python programming series. The first article that introduces the subject matter can be found &lt;a href=&quot;/python/2018/10/20/introduction-to-python-programming.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+        class Color(Enum):
 
-&lt;h5 id=&quot;installing-python-on-windows--macos&quot;&gt;&lt;strong&gt;Installing python on Windows / MacOs&lt;/strong&gt;&lt;/h5&gt;
+            NORTH = 1
+            EAST = 2
+            SOUTH = 3
+            WEST = 4
 
-&lt;p&gt;Click the orange-colored download button if you want the 32-bit version of the software (e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;python-3.7.1.exe&lt;/code&gt;) else scroll down a bit and click on a specific release e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;python-3.7.1&lt;/code&gt;. This should take you the page where you can select the 64 bit version of the software. This should be python-3.7.1.&lt;code class=&quot;highlighter-rouge&quot;&gt;amd64&lt;/code&gt;.exe for example. (&lt;em&gt;note the &lt;strong&gt;amd64&lt;/strong&gt;&lt;/em&gt;)&lt;/p&gt;
+        ## Color.WEST equals or represents 4
 
-&lt;p&gt;Upon clicking the python executable or .exe file, you should get a prompt as shown below:&lt;/p&gt;
+{% endhighlight %}
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/post/python/installing/start.png&quot; alt=&quot;start prompt for python installation&quot; /&gt;&lt;/p&gt;
+- **Datetime** - The datetime object object in python consists of datetime properties useful for manipulating dates and times as well as performing for performing date and time arithmetics.
 
-&lt;p&gt;&lt;strong&gt;Make sure you check the “add python to path” option as shown above.&lt;/strong&gt; This enables you run the python interpreter from the commandline anywhere on your device. Also it makes it easier for other softwares which require python to find the python program.&lt;/p&gt;
+{% highlight python %}
 
-&lt;p&gt;Then click &lt;code class=&quot;highlighter-rouge&quot;&gt;install now&lt;/code&gt; or click &lt;code class=&quot;highlighter-rouge&quot;&gt;customize installation&lt;/code&gt; if you want specific features (both optional and advanced) as well as the ability to choose the location of installation. If you are a beginner, click &lt;code class=&quot;highlighter-rouge&quot;&gt;install now&lt;/code&gt;. Note that you can make further modifications after installing python by clicking the installer. After a successful installation, you should see this.&lt;/p&gt;
+    from datetime import date
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/post/python/installing/success.png&quot; alt=&quot;python successful installation image&quot; /&gt;&lt;/p&gt;
+    today = date.today()
 
-&lt;p&gt;After installation, open the commandline on your device (shift + right-click) and type &lt;code class=&quot;highlighter-rouge&quot;&gt;python&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;py&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;python3&lt;/code&gt;. This should launch the python interpreter.&lt;/p&gt;
+    print(today)  ## datetime.date(2018, 11, 21)
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/post/python/installing/interpreter.png&quot; alt=&quot;python interpreter from the commandline&quot; /&gt;&lt;/p&gt;
+    print(today.year)  ## 2018
+    print(today.month)  ## 11
 
-&lt;p&gt;On windows only: &lt;code class=&quot;highlighter-rouge&quot;&gt;py -0&lt;/code&gt; to produce a list of the installed pythons, with default marked with an asterisk. Running &lt;code class=&quot;highlighter-rouge&quot;&gt;py -0p&lt;/code&gt; will include the paths. If py is run with a version specifier that cannot be matched it will also print the short form list of available specifiers (excerpt from python 3.7 changelog)&lt;/p&gt;
+{% endhighlight %}
 
-&lt;p&gt;Along with the python interpreter, other files associated with the python installation includes&lt;/p&gt;
+##### **CONCLUSION**
 
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;the python manual/documentation (a must-have great place to learn python)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;the default python shell called IDLE&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;the python module documentation&lt;/p&gt;
+This article gave an overview of python datatypes. Next is [python statements, expressions and variables]({% post_url 2019-03-19-overview-of-python-datatypes %}).</content><author><name>mark</name></author><category term="python" /><category term="beginner" /><summary type="html">Python datatypes such as numbers, sequences (e.g. strings, lists, tuples), mappings or dictionaries are the building blocks of a python application. This article gives an overview of python’s major datatypes.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://statogale.github.io/assets/img/post/python/python-logo-generic.svg" /></entry><entry><title type="html">python programming - Installing python</title><link href="https://statogale.github.io/python/2018/11/15/installing-python.html" rel="alternate" type="text/html" title="python programming - Installing python" /><published>2018-11-15T00:00:00+01:00</published><updated>2018-11-15T00:00:00+01:00</updated><id>https://statogale.github.io/python/2018/11/15/installing-python</id><content type="html" xml:base="https://statogale.github.io/python/2018/11/15/installing-python.html">Installation of python is very easy although it is dependent on the operating system of your device.
 
-    &lt;p&gt;click on this to open the module docs in your device’s default web browser. There you can assess information on python functions available in the modules&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;python text editor - not so fancy like &lt;code class=&quot;highlighter-rouge&quot;&gt;jetbrains pycharm&lt;/code&gt; but can be useful in certain cases.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
 
-&lt;h5 id=&quot;installation-on-other-operating-systems&quot;&gt;&lt;strong&gt;Installation on other operating systems&lt;/strong&gt;&lt;/h5&gt;
+To install python, go to &lt;https://www.python.org/downloads/&gt; and select the latest release of the python software based on your operating system. Usually, the download options specific to your operating system are shown first.  This article is second in the introduction to python programming series. The first article that introduces the subject matter can be found [here]({% post_url 2018-10-20-introduction-to-python-programming %}).
 
-&lt;p&gt;Installation on mac follows a similar process as explained above. On linux, python is installed by default. If you’d like to install a different version then run&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;sudo apt-get update&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;sudo apt-get install python-&lt;code class=&quot;highlighter-rouge&quot;&gt;version&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
+##### **Installing python on Windows / MacOs**
 
-&lt;h5 id=&quot;when-you-cant-run-python-from-the-commandline&quot;&gt;&lt;strong&gt;When you can’t run python from the commandline&lt;/strong&gt;&lt;/h5&gt;
+Click the orange-colored download button if you want the 32-bit version of the software (e.g. `python-3.7.1.exe`) else scroll down a bit and click on a specific release e.g. `python-3.7.1`. This should take you the page where you can select the 64 bit version of the software. This should be python-3.7.1.`amd64`.exe for example. (*note the **amd64***)
 
-&lt;p&gt;If you do get the above message, do the following.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;verify that the python software was properly installed; type &lt;code class=&quot;highlighter-rouge&quot;&gt;python.exe&lt;/code&gt; in the search bar of your device. If found right-click and open folder location. You should see python.exe among other files.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;if python.exe is available, most likely python wasn’t added to the path variable during installation. The easiest way to solve this problem is to click on the python installer (the file you downloaded) and choose the modify option. Then click next. Make sure the &lt;code class=&quot;highlighter-rouge&quot;&gt;add python to environment variables&lt;/code&gt; option is checked and you are good to go.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+Upon clicking the python executable or .exe file, you should get a prompt as shown below:
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/post/python/installing/modify.png&quot; alt=&quot;modifying python installation&quot; /&gt;&lt;/p&gt;
+  ![start prompt for python installation](/assets/img/post/python/installing/start.png)
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/post/python/installing/modify2.png&quot; alt=&quot;ensuring that the add python to path variable is checked&quot; /&gt;&lt;/p&gt;
 
-&lt;h5 id=&quot;conclusion&quot;&gt;&lt;strong&gt;Conclusion.&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;As you make progress in the understanding and use of the python programming language, the ability to use python efficiently from the commandline is one skill you should possess especially if you want to be a system administrator or a devOps engineer. As a beginner you don’t have much to worry about…for now. If you have not installed an &lt;a href=&quot;/python/2019/03/19/installing-a-python-ide.html&quot;&gt;IDE&lt;/a&gt;
-Let’s take a look at python’s &lt;a href=&quot;/python/2019/03/19/overview-of-python-datatypes.html&quot;&gt;datatypes&lt;/a&gt; which is very essential for the creation of applications with python.&lt;/p&gt;</content><author><name>mark</name></author><category term="python" /><category term="beginner" /><summary type="html">Installation of python is very easy although it is dependent on the operating system of your device.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://statogale.github.io/assets/img/post/python/python-logo-generic.svg" /></entry><entry><title type="html">python programming - introduction</title><link href="https://statogale.github.io/python/2018/10/20/introduction-to-python-programming.html" rel="alternate" type="text/html" title="python programming - introduction" /><published>2018-10-20T00:00:00+01:00</published><updated>2018-10-20T00:00:00+01:00</updated><id>https://statogale.github.io/python/2018/10/20/introduction-to-python-programming</id><content type="html" xml:base="https://statogale.github.io/python/2018/10/20/introduction-to-python-programming.html">&lt;p&gt;Python is a &lt;code class=&quot;highlighter-rouge&quot;&gt;general-purpose&lt;/code&gt; high-level programming language, useful in the creation of both small, medium and large scale mobile, web and desktop applications.&lt;/p&gt;
+**Make sure you check the &quot;add python to path&quot; option as shown above.** This enables you run the python interpreter from the commandline anywhere on your device. Also it makes it easier for other softwares which require python to find the python program.
 
-&lt;ul&gt;
-  &lt;li&gt;It was created by Guido van Rossum and first released in 1991. &lt;a href=&quot;https://en.wikipedia.org/wiki/Python_(programming_language)&quot;&gt;Link&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
+Then click `install now` or click `customize installation` if you want specific features (both optional and advanced) as well as the ability to choose the location of installation. If you are a beginner, click `install now`. Note that you can make further modifications after installing python by clicking the installer. After a successful installation, you should see this.
 
-&lt;p&gt;Python comes in different flavours including but not limited to:&lt;/p&gt;
+ ![python successful installation image](/assets/img/post/python/installing/success.png)
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.python.org/downloads/release/python-367/&quot;&gt;Cython&lt;/a&gt; which is the most popular and officially supported by the &lt;a href=&quot;https://www.python.org/psf/&quot;&gt;PSF&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.jython.org/&quot;&gt;Jython&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://ironpython.net/&quot;&gt;Iron python&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://winpython.github.io/&quot;&gt;Winpython&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;etc.&lt;/li&gt;
-&lt;/ul&gt;
+After installation, open the commandline on your device (shift + right-click) and type `python` or `py` or `python3`. This should launch the python interpreter. 
 
-&lt;h5 id=&quot;features-of-python&quot;&gt;FEATURES OF PYTHON&lt;/h5&gt;
+ ![python interpreter from the commandline](/assets/img/post/python/installing/interpreter.png)
 
-&lt;p&gt;Here’s why you would want to learn python programming.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Python is easy, concise / readable.&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
+On windows only: `py -0` to produce a list of the installed pythons, with default marked with an asterisk. Running `py -0p` will include the paths. If py is run with a version specifier that cannot be matched it will also print the short form list of available specifiers (excerpt from python 3.7 changelog)
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;     
-        &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Peter Griffin&quot;&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;number&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
+Along with the python interpreter, other files associated with the python installation includes 
+
+- the python manual/documentation (a must-have great place to learn python)
+
+- the default python shell called IDLE
+
+- the python module documentation 
+
+    click on this to open the module docs in your device's default web browser. There you can assess information on python functions available in the modules
+
+- python text editor - not so fancy like `jetbrains pycharm` but can be useful in certain cases.
+
+
+##### **Installation on other operating systems**
+
+Installation on mac follows a similar process as explained above. On linux, python is installed by default. If you'd like to install a different version then run 
+
+1. sudo apt-get update
+
+2. sudo apt-get install python-`version`
+
+##### **When you can't run python from the commandline**
+
+If you do get the above message, do the following.
+
+- verify that the python software was properly installed; type `python.exe` in the search bar of your device. If found right-click and open folder location. You should see python.exe among other files.
+
+- if python.exe is available, most likely python wasn't added to the path variable during installation. The easiest way to solve this problem is to click on the python installer (the file you downloaded) and choose the modify option. Then click next. Make sure the `add python to environment variables` option is checked and you are good to go.
+
+ ![modifying python installation](/assets/img/post/python/installing/modify.png)
+
+
+ ![ensuring that the add python to path variable is checked](/assets/img/post/python/installing/modify2.png)
+
+
+##### **Conclusion.**
+
+As you make progress in the understanding and use of the python programming language, the ability to use python efficiently from the commandline is one skill you should possess especially if you want to be a system administrator or a devOps engineer. As a beginner you don't have much to worry about...for now. If you have not installed an [IDE]({% post_url 2019-03-19-installing-a-python-ide %})
+Let's take a look at python's [datatypes]({% post_url 2019-03-19-overview-of-python-datatypes %}) which is very essential for the creation of applications with python.</content><author><name>mark</name></author><category term="python" /><category term="beginner" /><summary type="html">Installation of python is very easy although it is dependent on the operating system of your device.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://statogale.github.io/assets/img/post/python/python-logo-generic.svg" /></entry><entry><title type="html">python programming - introduction</title><link href="https://statogale.github.io/python/2018/10/20/introduction-to-python-programming.html" rel="alternate" type="text/html" title="python programming - introduction" /><published>2018-10-20T00:00:00+01:00</published><updated>2018-10-20T00:00:00+01:00</updated><id>https://statogale.github.io/python/2018/10/20/introduction-to-python-programming</id><content type="html" xml:base="https://statogale.github.io/python/2018/10/20/introduction-to-python-programming.html">Python is a `general-purpose` high-level programming language, useful in the creation of both small, medium and large scale mobile, web and desktop applications.
+
+-  It was created by Guido van Rossum and first released in 1991. [Link](https://en.wikipedia.org/wiki/Python_(programming_language)).
+
+Python comes in different flavours including but not limited to:
+
+- [Cython](https://www.python.org/downloads/release/python-367/) which is the most popular and officially supported by the [PSF](https://www.python.org/psf/)
+- [Jython](http://www.jython.org/)
+- [Iron python](http://ironpython.net/)
+- [Winpython](https://winpython.github.io/)
+- etc.
+
+
+##### FEATURES OF PYTHON
+
+Here's why you would want to learn python programming.
+
+- **Python is easy, concise / readable.**
+ 
+ {% highlight python %}
+     
+        name = &quot;Peter Griffin&quot;
+        number = 5
         
-        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;c&quot;&gt;# note the absence of semicolons `&lt;/span&gt;
+        print(&quot;Hello&quot;)
+        # note the absence of semicolons `
        
- &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+ {% endhighlight %}       
 
-&lt;ul&gt;
-  &lt;li&gt;this is the equivalent C++ code (&lt;em&gt;which is the beginning of all difficulties… C++ is great but not as a first language in my opinion&lt;/em&gt;)&lt;/li&gt;
-&lt;/ul&gt;
+- this is the equivalent C++ code (*which is the beginning of all difficulties... C++ is great but not as a first language in my opinion*)  
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c--&quot; data-lang=&quot;c++&quot;&gt;        &lt;span class=&quot;cp&quot;&gt;#include &amp;lt;iostream&amp;gt;
-&lt;/span&gt;        
-        &lt;span class=&quot;k&quot;&gt;using&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;namespace&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+       {% highlight c++ %}
+
+        #include &lt;iostream&gt;
         
-        &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
+        using namespace std;
+        
+        int main(){
            
-           &lt;span class=&quot;n&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Peter Griffin&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-           &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;number&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+           string name = &quot;Peter Griffin&quot;;
+           int number = 5;
            
-           &lt;span class=&quot;n&quot;&gt;cout&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;endl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+           cout &lt;&lt; &quot;Hello&quot; &lt;&lt; endl;
            
-           &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-       &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+           return 0;
+        }
+       {% endhighlight %}
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Interpreter_(computing)&quot;&gt;it is an interpreted language&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
+- [it is an interpreted language](https://en.wikipedia.org/wiki/Interpreter_(computing)). 
 
-&lt;p&gt;This implies that the immediate result(s) of code written is executed line by line without an initial compilation into a machine-readable format (e.g binaries or zeros and ones) by a &lt;a href=&quot;https://en.wikipedia.org/wiki/Compiler&quot;&gt;compiler&lt;/a&gt;&lt;/p&gt;
+This implies that the immediate result(s) of code written is executed line by line without an initial compilation into a machine-readable format (e.g binaries or zeros and ones) by a [compiler](https://en.wikipedia.org/wiki/Compiler)
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;automatic memory management (unlike C++).&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
+- **automatic memory management (unlike C++).** 
 
-&lt;p&gt;When objects (e.g. strings, numbers, lists) are created they are stored in memory of your machine or device. Python helps with cleaning or removal of these objects after the program is ran to completion. While in some programming languages e.g C/C++ , the memory used by the created object as has to freed or reallocated by the programmer.&lt;/p&gt;
+When objects (e.g. strings, numbers, lists) are created they are stored in memory of your machine or device. Python helps with cleaning or removal of these objects after the program is ran to completion. While in some programming languages e.g C/C++ , the memory used by the created object as has to freed or reallocated by the programmer.
 
-&lt;ul&gt;
-  &lt;li&gt;dynamically typed (you don’t have to declare variable / function return types like in C, java, C++ etc..).&lt;/li&gt;
-&lt;/ul&gt;
+- dynamically typed (you don't have to declare variable / function return types like in C, java, C++ etc..).
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;       &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Peter Griffin&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;python&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; 
-       &lt;span class=&quot;c&quot;&gt;# the interpreter automatic knows that the variable name is / holds a string.&lt;/span&gt;
+      {% highlight python %}
 
-       &lt;span class=&quot;n&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Peter Griffin&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Java&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;C&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; 
-       &lt;span class=&quot;c&quot;&gt;# you must tell the compiler the type of variable. In this case, a string also.&lt;/span&gt;
+       name = &quot;Peter Griffin&quot; (python) 
+       # the interpreter automatic knows that the variable name is / holds a string.
 
-    &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+       string name = &quot;Peter Griffin&quot;; (Java, C++) 
+       # you must tell the compiler the type of variable. In this case, a string also.
 
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Supports different programming practices (procedural, object oriented, functional)&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;versatile use (web, ML, embedded, big companies)&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;scalable (small and large applications can be created)&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://stackoverflow.blog/2017/09/06/incredible-growth-python/&quot;&gt;popular&lt;/a&gt;. Python is among the fastest growing programming languages.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+    {% endhighlight %}
 
-&lt;h5 id=&quot;uses-of-python&quot;&gt;USES OF PYTHON&lt;/h5&gt;
+- **Supports different programming practices (procedural, object oriented, functional)**  
 
-&lt;p&gt;Some of the uses of Python includes (You’ll love this!):&lt;/p&gt;
+- **versatile use (web, ML, embedded, big companies)**
 
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Desktop applications (e.g. an example is &lt;a href=&quot;https://inkscape.org/&quot;&gt;Inkscape&lt;/a&gt;, a free computer graphics application).&lt;/p&gt;
+- **scalable (small and large applications can be created)**
 
-    &lt;p&gt;&lt;a href=&quot;https://wxpython.org/&quot;&gt;Wxpython&lt;/a&gt;, an implementation of &lt;a href=&quot;https://www.wxwidgets.org/&quot;&gt;wxWidgets&lt;/a&gt; is a popular tool for creating graphical user interfaces (GUI).&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Artificial intelligence / Machine Learning as well as Data analysis (via the &lt;a href=&quot;https://www.scipy.org/&quot;&gt;sciPy packages&lt;/a&gt;)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;DevOps / System administration / Writing automation scripts&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Educational purposes (great for introducing programming concepts, since it is easy)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Embedded development (This is the use of python within a programming language such as C / Java etc.)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Game development (check out &lt;a href=&quot;https://www.pygame.org/&quot;&gt;pygame&lt;/a&gt; , a tool for game development)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Mobile development(e.g. with &lt;a href=&quot;https://kivy.org/&quot;&gt;kivy&lt;/a&gt;)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Multimedia applications development&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Network programming&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Programming of web parsers / scrapers / crawlers&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Software prototyping&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Software testing / Writing automated tests&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Web development (&lt;a href=&quot;https://www.djangoproject.com/&quot;&gt;Django&lt;/a&gt; web development framework, &lt;a href=&quot;http://flask.pocoo.org/&quot;&gt;Flask&lt;/a&gt; microframework)&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+- [popular](https://stackoverflow.blog/2017/09/06/incredible-growth-python/). Python is among the fastest growing programming languages.
 
-&lt;h5 id=&quot;conclusion&quot;&gt;CONCLUSION&lt;/h5&gt;
 
-&lt;p&gt;python is a great piece of software that you should consider learning or mastering because there are many possibilities
-or opportunities available to a python programmer. Next let’s &lt;a href=&quot;/python/2018/11/15/installing-python.html&quot;&gt;install&lt;/a&gt; the python software.&lt;/p&gt;</content><author><name>mark</name></author><category term="python" /><category term="beginner" /><summary type="html">Python is a general-purpose high-level programming language, useful in the creation of both small, medium and large scale mobile, web and desktop applications.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://statogale.github.io/assets/img/post/python/python-logo-generic.svg" /></entry></feed>
+
+##### USES OF PYTHON
+
+ Some of the uses of Python includes (You'll love this!):
+
+- Desktop applications (e.g. an example is [Inkscape](https://inkscape.org/), a free computer graphics application).
+
+   [Wxpython](https://wxpython.org/), an implementation of [wxWidgets](https://www.wxwidgets.org/) is a popular tool for creating graphical user interfaces (GUI).
+
+- Artificial intelligence / Machine Learning as well as Data analysis (via the [sciPy packages](https://www.scipy.org/))
+
+- DevOps / System administration / Writing automation scripts
+
+- Educational purposes (great for introducing programming concepts, since it is easy)
+
+- Embedded development (This is the use of python within a programming language such as C / Java etc.)
+
+- Game development (check out [pygame](https://www.pygame.org/) , a tool for game development)
+
+- Mobile development(e.g. with [kivy](https://kivy.org/))
+
+- Multimedia applications development
+
+- Network programming
+
+- Programming of web parsers / scrapers / crawlers
+
+- Software prototyping
+
+- Software testing / Writing automated tests
+
+- Web development ([Django](https://www.djangoproject.com/) web development framework, [Flask](http://flask.pocoo.org/) microframework)
+
+##### CONCLUSION
+
+python is a great piece of software that you should consider learning or mastering because there are many possibilities
+or opportunities available to a python programmer. Next let's [install]({% post_url 2018-11-15-installing-python %}) the python software.</content><author><name>mark</name></author><category term="python" /><category term="beginner" /><summary type="html">Python is a general-purpose high-level programming language, useful in the creation of both small, medium and large scale mobile, web and desktop applications.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://statogale.github.io/assets/img/post/python/python-logo-generic.svg" /></entry></feed>
